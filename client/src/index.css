@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background-color: rgb(245, 245, 220);
+}
+
+.container {
+  height: 50vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin-top: 3rem;
+}
+.card {
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 5rem;
+  margin: 0;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+.mainButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 2rem;
+  width: 5rem;
+}
+.mainButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.831);
+  background-color: #366fe9e2;
+}
+.dislikeButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.831);
+  background-color: #fc2d2d;
+}
+
+.dislikeButton {
+  background: #e80909;
+  color: white;
+}
+.likeButton {
+  background: #2563eb;
+  color: white;
+}
+.buttonContainer {
+  margin-top: auto;
+}
+.buttonContainer {
+  margin-top: auto;
+}

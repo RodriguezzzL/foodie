@@ -1,0 +1,7 @@
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 200px;
+  background: rgb(195, 61, 61);
+}
