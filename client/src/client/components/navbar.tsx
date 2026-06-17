@@ -1,7 +1,10 @@
 import "../../styling/navbarStyles.css";
-
 import foodieLogo from "../../styling/images/foodie.png";
 import { useState } from "react";
+
+
+
+
 const Navbar = () => {
   const [menuStatus, setMenuStatus] = useState(false);
 

@@ -1,7 +1,48 @@
-.cardContainer {
+.container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 100vh;
+  margin-top: 3rem;
+}
+.cardContainer {
+  background: #ff6b35;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+  border-radius: 2rem;
+  box-shadow: 0 8px 25px rgb(0, 0, 0);
+  transition: 0.3s ease;
+}
+.cardContainer:hover {
+  box-shadow: 0 0 35px #0e0d0d;
+  transform: translateY(-4px);
+}
+.cardInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+input,
+button {
+  border-radius: 2rem;
+  text-align: center;
+  padding: 1rem;
   width: 200px;
-  height: 200px;
-  background: rgb(195, 61, 61);
+}
+p {
+  color: white;
+}
+
+.title {
+  color: black;
+}
+a {
+  color: black;
 }
